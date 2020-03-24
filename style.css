@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+
+html { 
+    background: url(rick_morty.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    background: #000;
+    overflow: hidden;
+    
+}
+
+.intro {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    z-index: 1;    
+}
+
+.intro_texto {
+    font-family: 'perpetua';
+    color: rgb(255, 251, 0);
+    font-weight: 1000;
+    letter-spacing: .1em;
+}
+
+.intro_texto_top {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    z-index: 1;
+       
+    letter-spacing: .1em;
+    font-family:'perpetua';
+    font-weight: 1000;
+    color: rgb(238, 255, 0);
+    text-align: justify;
+    letter-spacing: .1em;
+    line-height: 1.1em;
+}
+
+
+  
+
+/*Fundo com as estrelas*/
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }

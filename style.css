@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
 
 html { 
-    background: url(rick_morty.jpg) no-repeat center center fixed; 
+    background: url(space.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -31,8 +31,8 @@ body {
 
 .intro_texto_top {
     position: absolute;
-    top: 30%;
-    left: 35%;
+    top: 25%;
+    left: 25%;
     z-index: 1;
        
     letter-spacing: .1em;
@@ -42,6 +42,14 @@ body {
     text-align: justify;
     letter-spacing: .1em;
     line-height: 1.1em;
+}
+
+js_field {
+    font-family: 'perpetua';
+    color: rgb(255, 251, 0);
+    font-weight: 1000;
+    letter-spacing: .1em;
+
 }
 
 
